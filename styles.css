@@ -17,7 +17,6 @@
     --gray: #BABABA;
     --off-white: #FAF8F7;
     --just-white: #FFF;
-
 }
 
 * {
@@ -93,7 +92,6 @@ header .logo {
     text-decoration: none;
     color: var(--warm-black);
 }
-
 .header--button img {
     display: inline-block;
     width: 13px;
@@ -101,4 +99,21 @@ header .logo {
     margin-left: 10px;
 }
 
-
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
