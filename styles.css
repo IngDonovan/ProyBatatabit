@@ -15,6 +15,7 @@
     --warm-black: #201E1C;
     --black: #282623;
     --gray: #BABABA;
+    --gray-text: #757575;/*segun el profe no vale la pena porque solo la usaremos una vez o dos*/
     --off-white: #FAF8F7;
     --just-white: #FFF;
 }
@@ -101,6 +102,7 @@ header .logo {
 
 main {
     width: 100%;
+    min-width: 320px;/*para que no se rompa*/
     height: auto;
     background-color: var(--off-white);
 }
@@ -111,9 +113,34 @@ main {
     padding-bottom: 30px;
     text-align: center;
 }
+.main-exchange-container .backgroundimg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(./assets/imgs/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 .main-exchange-container--title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+}
+.main-exchange-container--title h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main-exchange-container--title p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color:var(--gray-text);
 }
