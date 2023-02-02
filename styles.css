@@ -42,7 +42,7 @@ header {
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
-header img {
+header .logo {
     width: 150px;
     height: 24px;
     margin-top: 60px;
@@ -69,6 +69,36 @@ header img {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
+}
+.header--title-container .header--button {
+    position: absolute;
+    /*left: calc(50% - 118px);*/
+    left: 0;
+    right: 0;
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    margin-right: auto;/*reemplaza el cal con right left and margin auto*/
+    margin-left: auto;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /*Shadow*/
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--warm-black);
+}
+
+.header--button img {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
 }
 
 
