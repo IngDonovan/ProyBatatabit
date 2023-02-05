@@ -392,6 +392,14 @@ main {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+.plans-container--slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+  }
+.plans-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+  }
+  
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
