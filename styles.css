@@ -144,12 +144,21 @@ main {
     color:var(--gray-text);
 }
 
+.main-tables-container {
+    display: flex;
+    gap: 50px;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table, 
 .main-commission-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
+    scroll-snap-align: center;
     margin: 0 auto;   
 }
 .currency-table--title,
