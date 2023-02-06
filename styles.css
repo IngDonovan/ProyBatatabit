@@ -148,6 +148,8 @@ main {
   display: flex;
   gap: 50px;
   height: 400px;
+  margin: 0 auto;
+  padding: 0 50px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -495,4 +497,8 @@ footer .left ul{
 .left a {
   text-decoration: none;
   color: var(--just-white);
+}
+footer .right img {
+  width: 64px;
+  height: 50px;
 }
